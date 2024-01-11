@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let number = +prompt("Hãy nhập vào 1 tháng bất kì");
+        if (!isNaN(number) && number >=0 &&  number <=12) {
+            let ngaytrongthang;
+            switch (number){
+                    case 1:
+                    ngaytrongthang =  "20 ngày";
+                    break;
+                    case 2:
+                    ngaytrongthang =  "21 ngày";
+                    break;
+                    case 3:
+                    ngaytrongthang =  "22 ngày";
+                    break;
+                    case 4:
+                    ngaytrongthang =  "23 ngày";
+                    break;
+                    case 5:
+                    ngaytrongthang =  "24 ngày";
+                    break;
+                    case 6:
+                    ngaytrongthang =  "25 ngày";
+                    break;
+                    case 7:
+                    ngaytrongthang =  "30 ngày";
+                    break;
+            }
+            console.log(ngaytrongthang);
+        }else{
+            console.log("không hợp lệ");
+            }
+           
+    </script>
+</body>
+</html>

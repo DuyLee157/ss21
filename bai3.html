@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let number = +prompt("Hãy nhập vào 1 số");
+        if (!isNaN(number) && number >=2 &&  number <=8) {
+            let thutrongtuan;
+            switch (number){
+                    case 1:
+                    thutrongtuan =  "monday";
+                    break;
+                    case 2:
+                    thutrongtuan =  "tuesday";
+                    break;
+                    case 3:
+                    thutrongtuan =  "wednesday";
+                    break;
+                    case 4:
+                    thutrongtuan =  "thursday";
+                    break;
+                    case 5:
+                    thutrongtuan =  "friday";
+                    break;
+                    case 6:
+                    thutrongtuan =  "saturday";
+                    break;
+                    case 7:
+                    thutrongtuan =  "sunday";
+                    break;
+            }
+            console.log(thutrongtuan);
+        }else{
+            console.log("không hợp lệ");
+            }
+           
+    </script>
+</body>
+</html>

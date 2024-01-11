@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let toan = +prompt("Nhập điểm môn Toán")
+        let van = +prompt("Nhập điểm môn văn")
+        let anh = +prompt("Nhập điểm môn Anh")
+
+        let dtb = (toan + van + anh)/3
+        if(dtb >= 8 && dtb <=10){
+            console.log("Xếp loại Giỏi")
+            }if(dtb >= 6.5 && dtb <= 7.9){
+            console.log("Xếp loại Khá")
+            }if(dtb >= 5.0 && dtb <= 6.4){
+            console.log("Xếp loại Trung Bình")
+            }else{
+            console.log("xếp loại yếu")
+            }
+    </script>
+</body>
+</html>
